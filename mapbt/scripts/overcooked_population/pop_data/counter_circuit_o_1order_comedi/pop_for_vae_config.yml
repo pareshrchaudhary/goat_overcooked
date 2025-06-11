@@ -1,0 +1,84 @@
+comedi_mp0:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_comedi/models/comedi_mp0_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/comedi_mp_policy_config.pkl
+    train: false
+comedi_mp1:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_comedi/models/comedi_mp1_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/comedi_mp_policy_config.pkl
+    train: false
+comedi_mp2:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_comedi/models/comedi_mp2_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/comedi_mp_policy_config.pkl
+    train: false
+comedi_mp3:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_comedi/models/comedi_mp3_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/comedi_mp_policy_config.pkl
+    train: false
+comedi_mp4:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_comedi/models/comedi_mp4_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/comedi_mp_policy_config.pkl
+    train: false
+comedi_mp5:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_comedi/models/comedi_mp5_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/comedi_mp_policy_config.pkl
+    train: false
+comedi_mp6:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_comedi/models/comedi_mp6_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/comedi_mp_policy_config.pkl
+    train: false
+comedi_mp7:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_comedi/models/comedi_mp7_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/comedi_mp_policy_config.pkl
+    train: false
+sp10_final:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_comedi/models/sp10_final_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false
+sp10_mid:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_comedi/models/sp10_mid_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false
+sp9_final:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_comedi/models/sp9_final_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false
+sp9_mid:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_comedi/models/sp9_mid_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false

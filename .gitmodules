@@ -1,0 +1,8 @@
+[submodule "mapbt/envs/overcooked/overcooked_berkeley"]
+	path = mapbt/envs/overcooked/overcooked_berkeley
+	url = https://github.com/lych1233/overcooked_berkeley
+
+[submodule "mapbt/scripts/overcooked_population/pop_data"]
+	path = mapbt/scripts/overcooked_population/pop_data
+	url = https://github.com/pareshrchaudhary/Overcooked_Population_Data.git
+

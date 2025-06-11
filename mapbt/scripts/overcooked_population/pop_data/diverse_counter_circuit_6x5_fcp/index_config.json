@@ -1,0 +1,67 @@
+{
+    "layout": "diverse_counter_circuit_6x5",
+    "local_policies": {
+        "sp1": {
+            "script": "gen_fcp_agents_with_random_start.sh",
+            "seed": 1,
+            "log_file": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run10/logs/summary.json",
+            "model_dir": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run10/models"
+        },
+        "sp2": {
+            "script": "gen_fcp_agents_with_random_start.sh",
+            "seed": 2,
+            "log_file": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run19/logs/summary.json",
+            "model_dir": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run19/models"
+        },
+        "sp3": {
+            "script": "gen_fcp_agents_with_random_start.sh",
+            "seed": 3,
+            "log_file": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run27/logs/summary.json",
+            "model_dir": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run27/models"
+        },
+        "sp4": {
+            "script": "gen_fcp_agents_with_random_start.sh",
+            "seed": 4,
+            "log_file": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run34/logs/summary.json",
+            "model_dir": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run34/models"
+        },
+        "sp5": {
+            "script": "gen_fcp_agents_with_random_start.sh",
+            "seed": 5,
+            "log_file": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run40/logs/summary.json",
+            "model_dir": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run40/models"
+        },
+        "sp6": {
+            "script": "gen_fcp_agents_with_random_start.sh",
+            "seed": 6,
+            "log_file": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run45/logs/summary.json",
+            "model_dir": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run45/models"
+        },
+        "sp7": {
+            "script": "gen_fcp_agents_with_random_start.sh",
+            "seed": 7,
+            "log_file": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run49/logs/summary.json",
+            "model_dir": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run49/models"
+        },
+        "sp8": {
+            "script": "gen_fcp_agents_with_random_start.sh",
+            "seed": 8,
+            "log_file": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run52/logs/summary.json",
+            "model_dir": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run52/models"
+        },
+        "sp9": {
+            "script": "gen_fcp_agents_with_random_start.sh",
+            "seed": 9,
+            "log_file": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run54/logs/summary.json",
+            "model_dir": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run54/models",
+            "held_out": true
+        },
+        "sp10": {
+            "script": "gen_fcp_agents_with_random_start.sh",
+            "seed": 10,
+            "log_file": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run55/logs/summary.json",
+            "model_dir": "./results/Overcooked/diverse_counter_circuit_6x5/mappo/gen_fcp_agents_with_random_start.sh/run55/models",
+            "held_out": true
+        }
+    }
+}

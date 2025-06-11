@@ -1,0 +1,210 @@
+sp10_final:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp10_final_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp10_init:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp10_init_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp10_mid:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp10_mid_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp1_final:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp1_final_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp1_init:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp1_init_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp1_mid:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp1_mid_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp2_final:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp2_final_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp2_init:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp2_init_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp2_mid:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp2_mid_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp3_final:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp3_final_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp3_init:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp3_init_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp3_mid:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp3_mid_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp4_final:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp4_final_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp4_init:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp4_init_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp4_mid:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp4_mid_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp5_final:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp5_final_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp5_init:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp5_init_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp5_mid:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp5_mid_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp6_final:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp6_final_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp6_init:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp6_init_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp6_mid:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp6_mid_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp7_final:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp7_final_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp7_init:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp7_init_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp7_mid:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp7_mid_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp8_final:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp8_final_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp8_init:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp8_init_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp8_mid:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp8_mid_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp9_final:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp9_final_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp9_init:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp9_init_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false
+sp9_mid:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/cramped_room_fcp/models/sp9_mid_actor.pt
+    policy_config_path: config/cramped_room/mlp_policy_config.pkl
+    train: false

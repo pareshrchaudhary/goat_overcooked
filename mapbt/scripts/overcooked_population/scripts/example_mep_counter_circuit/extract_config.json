@@ -1,0 +1,53 @@
+{
+    "layout": "counter_circuit_o_1order",
+    "local_policies": {
+        "mep1": {
+            "script": "counter_gen_mep.sh",
+            "seed": 1,
+            "log_file": "./results/Overcooked/counter_circuit_o_1order/mep/mep_agents-S1/run1/logs/summary.json",
+            "model_dir": "./results/Overcooked/counter_circuit_o_1order/mep/mep_agents-S1/run1/models/mep1"
+        },
+        "mep2": {
+            "script": "counter_gen_mep.sh",
+            "seed": 2,
+            "log_file": "./results/Overcooked/counter_circuit_o_1order/mep/mep_agents-S1/run1/logs/summary.json",
+            "model_dir": "./results/Overcooked/counter_circuit_o_1order/mep/mep_agents-S1/run1/models/mep2"
+        },
+        "mep3": {
+            "script": "counter_gen_mep.sh",
+            "seed": 3,
+            "log_file": "./results/Overcooked/counter_circuit_o_1order/mep/mep_agents-S1/run1/logs/summary.json",
+            "model_dir": "./results/Overcooked/counter_circuit_o_1order/mep/mep_agents-S1/run1/models/mep3"
+        },
+        "mep4": {
+            "script": "counter_gen_mep.sh",
+            "seed": 4,
+            "log_file": "./results/Overcooked/counter_circuit_o_1order/mep/mep_agents-S1/run1/logs/summary.json",
+            "model_dir": "./results/Overcooked/counter_circuit_o_1order/mep/mep_agents-S1/run1/models/mep4"
+        },
+        "mep5": {
+            "script": "counter_gen_mep.sh",
+            "seed": 5,
+            "log_file": "./results/Overcooked/counter_circuit_o_1order/mep/mep_agents-S1/run1/logs/summary.json",
+            "model_dir": "./results/Overcooked/counter_circuit_o_1order/mep/mep_agents-S1/run1/models/mep5"
+        },
+        "mep6": {
+            "script": "counter_gen_mep.sh",
+            "seed": 6,
+            "log_file": "./results/Overcooked/counter_circuit_o_1order/mep/mep_agents-S1/run1/logs/summary.json",
+            "model_dir": "./results/Overcooked/counter_circuit_o_1order/mep/mep_agents-S1/run1/models/mep6"
+        },
+        "mep7": {
+            "script": "counter_gen_mep.sh",
+            "seed": 7,
+            "log_file": "./results/Overcooked/counter_circuit_o_1order/mep/mep_agents-S1/run1/logs/summary.json",
+            "model_dir": "./results/Overcooked/counter_circuit_o_1order/mep/mep_agents-S1/run1/models/mep7"
+        },
+        "mep8": {
+            "script": "counter_gen_mep.sh",
+            "seed": 8,
+            "log_file": "./results/Overcooked/counter_circuit_o_1order/mep/mep_agents-S1/run1/logs/summary.json",
+            "model_dir": "./results/Overcooked/counter_circuit_o_1order/mep/mep_agents-S1/run1/models/mep8"
+        }
+    }
+}

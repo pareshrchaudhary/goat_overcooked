@@ -1,0 +1,74 @@
+coordinator:
+    policy_config_path: config/diverse_counter_circuit_6x5/rnn_policy_config.pkl
+    featurize_type: ppo
+    train: True
+bc_partner:
+    featurize_type: bc
+    model_path:
+        actor: pop_data/diverse_counter_circuit_6x5_fcp/models/bc_train.pt
+    policy_config_path: config/diverse_counter_circuit_6x5/bc_policy_config.pkl
+    train: false
+bc_train:
+    featurize_type: bc
+    held_out: true
+    model_path:
+        actor: pop_data/diverse_counter_circuit_6x5_fcp/models/bc_train.pt
+    policy_config_path: config/diverse_counter_circuit_6x5/bc_policy_config.pkl
+    train: false
+    evaluation_agent: true
+bc_test:
+    featurize_type: bc
+    held_out: true
+    model_path:
+        actor: pop_data/diverse_counter_circuit_6x5_fcp/models/bc_test.pt
+    policy_config_path: config/diverse_counter_circuit_6x5/bc_policy_config.pkl
+    train: false
+    evaluation_agent: true
+bc_train_dummy:
+    featurize_type: bc
+    held_out: true
+    model_path:
+        actor: pop_data/diverse_counter_circuit_6x5_fcp/models/bc_train_dummy.pt
+    policy_config_path: config/diverse_counter_circuit_6x5/bc_policy_config.pkl
+    train: false
+    evaluation_agent: true
+bc_test_dummy:
+    featurize_type: bc
+    held_out: true
+    model_path:
+        actor: pop_data/diverse_counter_circuit_6x5_fcp/models/bc_test_dummy.pt
+    policy_config_path: config/diverse_counter_circuit_6x5/bc_policy_config.pkl
+    train: false
+    evaluation_agent: true
+sp10_final:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/diverse_counter_circuit_6x5_fcp/models/sp10_final_actor.pt
+    policy_config_path: config/diverse_counter_circuit_6x5/mlp_policy_config.pkl
+    train: false
+    evaluation_agent: true
+sp10_mid:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/diverse_counter_circuit_6x5_fcp/models/sp10_mid_actor.pt
+    policy_config_path: config/diverse_counter_circuit_6x5/mlp_policy_config.pkl
+    train: false
+    evaluation_agent: true
+sp9_final:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/diverse_counter_circuit_6x5_fcp/models/sp9_final_actor.pt
+    policy_config_path: config/diverse_counter_circuit_6x5/mlp_policy_config.pkl
+    train: false
+    evaluation_agent: true
+sp9_mid:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/diverse_counter_circuit_6x5_fcp/models/sp9_mid_actor.pt
+    policy_config_path: config/diverse_counter_circuit_6x5/mlp_policy_config.pkl
+    train: false
+    evaluation_agent: true

@@ -1,0 +1,12 @@
+comedi_oracle:
+    featurize_type: ppo
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_comedi/models/oracle_8.pt
+    policy_config_path: config/counter_circuit_o_1order/comedi_mp_policy_config.pkl
+    train: false
+proxy:
+    featurize_type: bc
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_comedi/models/bc_test.pt
+    policy_config_path: config/counter_circuit_o_1order/bc_policy_config.pkl
+    train: false

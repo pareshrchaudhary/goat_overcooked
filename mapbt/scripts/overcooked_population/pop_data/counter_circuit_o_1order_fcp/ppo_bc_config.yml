@@ -1,0 +1,58 @@
+coordinator:
+    policy_config_path: config/counter_circuit_o_1order/rnn_policy_config.pkl
+    featurize_type: ppo
+    train: True
+bc_partner:
+    featurize_type: bc
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_fcp/models/bc_train.pt
+    policy_config_path: config/counter_circuit_o_1order/bc_policy_config.pkl
+    train: false
+bc_train:
+    featurize_type: bc
+    held_out: true
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_fcp/models/bc_train.pt
+    policy_config_path: config/counter_circuit_o_1order/bc_policy_config.pkl
+    train: false
+    evaluation_agent: true
+bc_test:
+    featurize_type: bc
+    held_out: true
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_fcp/models/bc_test.pt
+    policy_config_path: config/counter_circuit_o_1order/bc_policy_config.pkl
+    train: false
+    evaluation_agent: true
+sp10_final:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_fcp/models/sp10_final_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false
+    evaluation_agent: true
+sp10_mid:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_fcp/models/sp10_mid_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false
+    evaluation_agent: true
+sp9_final:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_fcp/models/sp9_final_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false
+    evaluation_agent: true
+sp9_mid:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_fcp/models/sp9_mid_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false
+    evaluation_agent: true

@@ -1,0 +1,67 @@
+{
+    "layout": "coordination_ring",
+    "local_policies": {
+        "sp1": {
+            "script": "random_start_sp.sh",
+            "seed": 1,
+            "log_file": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run1/logs/summary.json",
+            "model_dir": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run1/models"
+        },
+        "sp2": {
+            "script": "random_start_sp.sh",
+            "seed": 2,
+            "log_file": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run2/logs/summary.json",
+            "model_dir": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run2/models"
+        },
+        "sp3": {
+            "script": "random_start_sp.sh",
+            "seed": 3,
+            "log_file": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run3/logs/summary.json",
+            "model_dir": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run3/models"
+        },
+        "sp4": {
+            "script": "random_start_sp.sh",
+            "seed": 4,
+            "log_file": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run4/logs/summary.json",
+            "model_dir": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run4/models"
+        },
+        "sp5": {
+            "script": "random_start_sp.sh",
+            "seed": 5,
+            "log_file": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run5/logs/summary.json",
+            "model_dir": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run5/models"
+        },
+        "sp6": {
+            "script": "random_start_sp.sh",
+            "seed": 6,
+            "log_file": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run6/logs/summary.json",
+            "model_dir": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run6/models"
+        },
+        "sp7": {
+            "script": "random_start_sp.sh",
+            "seed": 7,
+            "log_file": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run7/logs/summary.json",
+            "model_dir": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run7/models"
+        },
+        "sp8": {
+            "script": "random_start_sp.sh",
+            "seed": 8,
+            "log_file": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run8/logs/summary.json",
+            "model_dir": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run8/models"
+        },
+        "sp9": {
+            "script": "random_start_sp.sh",
+            "seed": 9,
+            "log_file": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run9/logs/summary.json",
+            "model_dir": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run9/models",
+            "held_out": true
+        },
+        "sp10": {
+            "script": "random_start_sp.sh",
+            "seed": 10,
+            "log_file": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run10/logs/summary.json",
+            "model_dir": "./results/Overcooked/coordination_ring/mappo/random_start_sp.sh/run10/models",
+            "held_out": true
+        }
+    }
+}

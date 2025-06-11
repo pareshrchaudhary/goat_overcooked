@@ -1,0 +1,69 @@
+sp10_final:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_fcp/models/sp10_final_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false
+sp10_init:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_fcp/models/sp10_init_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false
+sp10_mid:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_fcp/models/sp10_mid_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false
+sp1_final:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_fcp/models/sp1_final_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false
+sp2_final:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_fcp/models/sp2_final_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_fcp/models/sp2_mid_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false
+sp3_final:
+    featurize_type: ppo
+    held_out: false
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_fcp/models/sp3_final_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false
+sp9_final:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_fcp/models/sp9_final_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false
+sp9_init:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_fcp/models/sp9_init_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false
+sp9_mid:
+    featurize_type: ppo
+    held_out: true
+    model_path:
+        actor: pop_data/counter_circuit_o_1order_fcp/models/sp9_mid_actor.pt
+    policy_config_path: config/counter_circuit_o_1order/mlp_policy_config.pkl
+    train: false
