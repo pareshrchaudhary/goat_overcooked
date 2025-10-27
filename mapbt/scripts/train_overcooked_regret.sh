@@ -2,16 +2,18 @@
 env="Overcooked"
 
 # asymmetric_advantages coordination_ring counter_circuit_o_1order=random3, cramped_room forced_coordination=random0
-layout=diverse_counter_circuit_6x5 # asymmetric_advantages diverse_counter_circuit_6x5
+layout=counter_circuit_o_1order # asymmetric_advantages diverse_counter_circuit_6x5
 pop=${layout}_mep
 
 num_agents=2
 algo="adaptive"
-exp="vae_sp_vs_minimax_regret"
+kl_coeff=5.0
+vae_model=46
+exp="regret_vae_kl_${vae_model}_kl_${kl_coeff}"
 
 path=./overcooked_population
 population_yaml_path=${path}/pop_data/${pop}/zsc_config.yml
-vae_model_dir=${path}/pop_data/${pop}/vae_models/best_logp_kl_46    
+vae_model_dir=${path}/pop_data/${pop}/vae_models_new/best_logp_kl_${vae_model} # 2, 3, 5, 7, 10, 15, 22, 32, 46, 68, 100
 
 export POLICY_POOL=${path}
 
@@ -25,7 +27,7 @@ do
         --ppo_epoch 15 --reward_shaping_horizon 100000000 \
         --n_rollout_threads 200 --train_env_batch 1 \
         --cnn_layers_params "32,3,1,1 64,3,1,1 32,3,1,1" \
-        --stage 2 --save_interval 20 --log_interval 10 \
+        --stage 2 --save_interval 20 --log_interval 10 --old_dynamics \
         --use_eval --n_eval_rollout_threads 24 --eval_interval 25 --eval_episodes 24 --eval_stochastic --use_evaluation_agents --eval_on_old_dynamics \
         --save_interval 25 \
         --population_yaml_path ${population_yaml_path} \
@@ -33,9 +35,7 @@ do
         --vae_hidden_size 256 --vae_encoder_input partner_obs \
         --vae_model_dir "${vae_model_dir}" \
         --vae_z_change_prob 0 \
-        --adversary_learning_rate 0.001 --use_lr_scheduler --start_facttor 1.0 --end_factor 0.9 \
-        --use_kl --kl_coeff 0.003 \
-        --use_mean_clipping --clip_mean_max 0.2 --clip_mean_min -0.2 \
-        --use_std_scaling \
-        --wandb_name "social-rl" --user_name "USER_NAME" --use_wandb
+        --adversary_learning_rate 0.0005 \
+        --use_kl --kl_coeff ${kl_coeff} \
+        --wandb_name "social-rl" --user_name "USER_NAME" #--use_wandb
 done

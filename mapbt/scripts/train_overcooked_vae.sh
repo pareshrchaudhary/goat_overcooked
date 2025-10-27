@@ -11,7 +11,7 @@ exp="coordinator_vs_vae"
 
 path=./overcooked_population
 population_yaml_path=${path}/pop_data/${pop}/zsc_config.yml
-vae_model_dir=${path}/pop_data/${pop}/vae_models/best_logp_kl_32
+vae_model_dir=${path}/pop_data/${pop}/vae_models/best_logp_kl_5
 
 export POLICY_POOL=${path}
 
@@ -25,7 +25,7 @@ do
         --ppo_epoch 15 --reward_shaping_horizon 100000000 \
         --n_rollout_threads 200 --train_env_batch 1 \
         --cnn_layers_params "32,3,1,1 64,3,1,1 32,3,1,1" \
-        --stage 2 --save_interval 20 --log_interval 10 \
+        --stage 2 --save_interval 20 --log_interval 10 --old_dynamics \
         --use_eval --n_eval_rollout_threads 24 --eval_interval 25 --eval_episodes 24 --eval_stochastic --use_evaluation_agents --eval_on_old_dynamics \
         --save_interval 25 \
         --population_yaml_path ${population_yaml_path} \
